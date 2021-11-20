@@ -1,0 +1,43 @@
+.presse-section {
+  width: 100%;
+  padding-top: 50px;
+}
+
+.presse-section .wrapper {
+  max-width: 1270px;
+  width: 100%;
+  margin: 0 auto;
+  background: #efefef;
+  padding: 25px;
+}
+
+.presse-section .wrapper .wrapper-ul {
+  font-size: 17px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.presse-section .wrapper .wrapper-ul .wrappe-li {
+  margin: 25px 0;
+  line-height: 25px;
+}
+
+.vakhtang-audio, .audio {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.vakhtang-audio .audio-title, .audio .audio-title {
+  margin: 20px;
+  font-size: 22px;
+  font-family: sans-serif;
+}
+
+.vakhtang-audio .subt-title, .audio .subt-title {
+  font-size: 15px;
+  margin: 20px;
+  font-family: sans-serif;
+}
+/*# sourceMappingURL=alexpresse.css.map */
