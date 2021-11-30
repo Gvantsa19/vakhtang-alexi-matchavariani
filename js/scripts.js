@@ -43,6 +43,7 @@ function clickedReload() {
 			namelastname: "Name Lastname",
 			socialmedia: "Social Media",
 			location: "Location Street",
+			videosamp:"Video Samples",
 			
 			learnmore: "Learn More",
 			biography: "Biography",
@@ -71,6 +72,14 @@ function clickedReload() {
 			mission9:"Revival of forgotten Georgian musical masterpieces.",
 			mission10:"Presentation of unknown musical masterpieces in Georgia.",
 			mission11:"Connection of Georgian and foreign young musicians via Music.",
+			alexp1:"Aleksi Machavariani was born in Gori, Georgia. He graduated from the Tbilisi Conservatory in 1936 and remained there for postgraduate studies. He studied composition under Pyotr Ryazanov. Later he joined the faculty, becoming a professor in 1963. He began his artistic career in 1935.",
+			alexp2:"Machavariani produced a number of critically acclaimed plays and ballets, including the ballet Othello (1957), the operas Mat i Sin (1945), Den moei Rodini (1954), the symphony Piat monologov (1971; it earned the Shota Rustaveli Prize). He also wrote the music to many theatrical productions, including Baratashvili and Legenda o liubvi. His output includes among other works also a violin concerto (1950), seven symphonies (1947–1992) and six string quartets (the last in 1993).[1]",
+			alexp3:"He was the artistic director of the Georgian State Symphony Orchestra from 1956 till 1958 and directed the Composers' Union of Georgia from 1962 till 1968.[2]",
+			alexp4:"His son, Vakhtang Machavariani, is likewise a composer, who also conducts his father's works.",
+			alexpress1:"1.) Brilliant music, brilliant performance… it’s a great success… again I want to underline the music of Alexi Matchavariani, which is talented and perfectly orchestrated.",
+			alexpress2:"2.) …”Othello” and Alexi Matchavariani’s score is a stunning dramatic pulse – sinuous, barbed, bombastic and tender in turn. …it’s Shakespeare with electricity.",
+			alexpress3:"3.) A. Matchavariani’s violin concerto is beautiful – it contains all the passion, the poetry and deep spirituality… Added to the lyrical quality of the music there is a robust intellectual approach – all in all, a most memorable piece which any violinist would have great pleasure in interpreting.",
+			alexpress4:"4.) Alexei Davidovich Matchavariani in a author of the excellent violin concerto.",
 			// conditions:"1) The competition is open to any composer under the age of 40 by the application deadline. 2) The competition will be held online. 3) Competition works should not have been published, nor published on a compact disc,shown on television, radio, Internet or performed in public.4) The date of creation of a work for the competition should not exceed two (2) years beforethe start of the competition, as Alexi Matchavariani’s International Composers'Competition will be held every two (2) years. 5) The composition created for the competition must be submitted no later than two (2) months before the start of the competition. a) Applications for the competition will not be accepted earlier than two months before the start of the competition. b) The competition dates will be announced online on the website of the Alexi and Vakhtang Matchavariani Charity Foundation. www.matchavarianifoundation.ge c) Information about the announcement of the competition will be provided in: Georgian,English, French, German and Russian languages.",
 			//team member biography
 			teammemberbiography: "A biography, or simply bio, is a detailed description of a person's life. It involves more than just the basic facts like education, work, relationships, and death; it portrays a person's experience of these life events. Unlike a profile or curriculum vitae (résumé), a biography presents a subject's life story, highlighting various aspects of his or her life, including intimate details of experience, and may include an analysis of the subject's personality"
@@ -93,6 +102,7 @@ function clickedReload() {
 			socialmedia: "სოციალური მედია",
 			location: "ლოკაცია",
 			competition: "ალექსი მაჭავარიანის სახელობის საერთაშორისო კომპოზიტორების კონკურსი",
+			videosamp:"ვიდეო მაგალითები",
 			
 			learnmore: "გაიგეთ მეტი",
 			biography: "ბიოგრაფია",
@@ -120,6 +130,14 @@ function clickedReload() {
 			mission9:"მივიწყებული ქართული მუსიკალური შედევრების აღორძინება",
 			mission10:"უცნობი მუსიკალური შედევრების პრეზენტაცია საქართველოში ",
 			mission11:"ქართველი და უცხოელი ახალგაზრდა მუსიკოსების კავშირი მუსიკის საშუალებით ",
+			alexp1:"ალექსი მაჭავარიანი საქართველოში, ქალაქ გორში დაიბადა. 1936 წელს დაამთავრა თბილისის კონსერვატორია და დარჩა იქ ასპირანტურაში. სწავლობდა კომპოზიციას პიოტრ რიაზანოვის ხელმძღვანელობით. მოგვიანებით იგი შეუერთდა ფაკულტეტს, გახდა პროფესორი 1963 წელს. მხატვრული კარიერა დაიწყო 1935 წელს. ",
+			alexp2:"მაჭავარიანმა გამოუშვა კრიტიკოსების მიერ აღიარებული არაერთი პიესა და ბალეტი, მათ შორის ბალეტი „ოტელო“ (1957), ოპერები „მატ და სინ“ (1945), „დენ მოი როდინი“ (1954), სიმფონია „პიატ მონოლოგოვი“ (1971); დაიმსახურა შოთა რუსთაველის პრემია). მან ასევე დაწერა მუსიკა მრავალ თეატრალურ დადგმაზე, მათ შორის „ბარათაშვილი“ და „ლეგენდა ო ლიუბვი“. მისი ნამუშევრები სხვა ნამუშევრებთან ერთად მოიცავს ასევე ვიოლინოს კონცერტს (1950), შვიდ სიმფონიას (1947–1992) და ექვს სიმებიან კვარტეტს (ბოლო 1993 წელს). ",
+			alexp3:"1956-1958 წლებში იყო საქართველოს სახელმწიფო სიმფონიური ორკესტრის სამხატვრო ხელმძღვანელი, 1962 წლიდან 1968 წლამდე ხელმძღვანელობდა საქართველოს კომპოზიტორთა კავშირს. ",
+			alexp4:"კომპოზიტორია მისი ვაჟი ვახტანგ მაჭავარიანიც, რომელიც ასევე უძღვება მამის შემოქმედებას. ",
+			alexpress1:"1.) ბრწყინვალე მუსიკა, ბრწყინვალე შესრულება... დიდი წარმატებაა... კიდევ ერთხელ მინდა ხაზი გავუსვა ალექსი მაჭავარიანის მუსიკას, რომელიც არის ნიჭიერი და შესანიშნავად ორკესტრირებული.",
+			alexpress2:"2.)…“ოტელოს” და ალექსი მაჭავარიანის პარტიტურა განსაცვიფრებელად დრამატული პულსია – თავის მხრივ, მბზინავი, ეკლიანი და ნაზი. ...ეს შექსპირია ელექტროენერგიით.",
+			alexpress3:"3.) ა. მაჭავარიანის სავიოლინო კონცერტი მშვენიერია – შეიცავს მთელ ვნებას, პოეზიას და ღრმა სულიერებას… მუსიკის ლირიკულ ხარისხს ემატება ძლიერი ინტელექტუალური მიდგომა – მთლიანობაში, ყველაზე დასამახსოვრებელი ნაწარმოებია, რომელსაც ნებისმიერი მევიოლინე მიიღებს დიდი სიამოვნებას.",
+			alexpress4:"4.) ალექსეი დავიდოვიჩ მაჭავარიანი შესანიშნავი ვიოლინოს კონცერტის ავტორი.",
 			// conditions: "1) კონკურსში მონაწილეობა შეუძლია ნებისმიერ კომპოზიტორს ორმოცი წლის ასაკამდე, განაცხადების მიღების ბოლო ვადის თარიღის მომენტში. 2) კონკურსი ჩატარდება ონლაინ რეჟიმში, 3) საკონკურსო ნაწარმოებები არ უნდა იყოს  გამოცემული: არ უნდა იყოს გამოცემული კომპაქტ დისკზე ან ნაჩვენები ტელევიზიით, რადიოს საშუალებით ან ინტერნეტით, ამასთანავე არ უნდა იყოს შესრულებული საჯაროდ. 4) კონკურსისთვის შექმნილი ნაწარმოების შექმნის ვადა არ უნდა აღემატებიდეს ორ (2) წელიწადს კონკურსის დაწყებამდე, რადგან ალექსი მაჭავარიანის სახელობის საერთაშორისო კომპოზიტორების კონკურსი ჩატარდება ყოველ ორ (2)  წელიწადში ერთხელ. 5) საკონკურსოდ შექმნილი კომპოზიცია მოწოდებულ უნდა იქნას კონკურსის დაწყებამდე უგვიანესი ორი (2) თვით ადრე. a) ორი თვით ადრე კონკურსის აპლიკაციები არ იქნება მიღებული. b) კონკურსის ვადები გამოცხადებული იქნება ონლაინ ალექსი და ვახტანგ მაჭავარიანის სახელობის საქველმოქმედო ფონდის ვებგვერდზე. www.matchavarianifoundation.ge. c) ინფორმაცია კონკურსის გამოცხადების შესახებ მოცემული იქნება: ქართულ, ინგლისურ, ფრანგულ, გერმანულ და რუსულ ენებზე.",
 			//team member biography
 			teammemberbiography: " ადამიანის ცხოვრების აღწერა. ბიოგრაფია ლიტერატურისა და ზოგიერთი მედიის (მაგ. კინოს) ერთ-ერთი ჟანრია, რომელსაც ინდივიდუალური ცხოვრების წერილობითი აღწერა უდევს საფუძვლად. ბიოგრაფია ძირითადად დოკუმენტურ წყაროებს ეყრდნობა და გამოგონილი არ არის. კურიკულიმ-ვიტას ან პროფილისგან განსხვავებით ბიოგრაფია კომპლექსურად აღწერს ადამიანის პერსონალურ მახასიათებლებს, რომელიც მისი გამოცდილების ინტიმურ დეტალებსაც ეყრდნობა."
