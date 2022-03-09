@@ -53,9 +53,15 @@ function clickedReload() {
 			location: "Location Street",
 			videosamp:"Video Samples",
 			aboutFond:"About Foundation",
+			namee:"Your Name",
+			lastname:"Your Lastname",
+			email:"Your Email",
+			addresss:"Niko Nikoladze 1a, Tbilisi, Georgia",
+			location1:"Niko Nikoladze 1a",
 			
 			learnmore: "Learn More",
 			biography: "Biography",
+			yourmessage: "your message",
 			manuscripts: "Manuscripts",
 			presse: "Presse",
 			audiosamples: "Video & Audio Samples",
@@ -255,10 +261,16 @@ function clickedReload() {
 			competition: "ალექსი მაჭავარიანის სახელობის საერთაშორისო კომპოზიტორების კონკურსი",
 			videosamp:"ვიდეო მაგალითები",
 			aboutFond:"ფონდის შესახებ",
+			namee:"სახელი",
+			lastname:"გვარი",
+			email:"მეილი",
+			addresss:"ნიკო ნიკოლაძის 1ა, თბილისი, საქართველო",
+			location1:"ნიკო ნიკოლაძის 1ა",
 			
 			learnmore: "გაიგეთ მეტი",
 			biography: "ბიოგრაფია",
 			manuscripts: "მანუსკრიპტები",
+			yourmessage:"თქვენი მესიჯი",
 			presse: "პრესა",
 			audiosamples: "ვიდეო და აუდიო ნამუშევრები",
 			information: "ინფორმაცია",
@@ -445,7 +457,8 @@ function clickedReload() {
 				document.querySelector('.btn--geo').classList.remove('btn--active');
 			}
 		});
-	} else {
+	} 
+	else {
 		window.location.hash = "#eng";
 		window.location.reload();
 	}
@@ -453,8 +466,9 @@ function clickedReload() {
 		e.onclick = () => {
 			let newUrl = '';
 			if (e.innerText === 'ENG') {
-				newUrl = window.location.href.replace('#geo', '#eng');
-			} else {
+				newUrl = window.Location.href.replace('#geo', '#eng');
+			} 
+			else if(e.innerText === "GEO") {
 				newUrl = window.location.href.replace('#eng', '#geo');
 			}
 			window.location.href = newUrl;
